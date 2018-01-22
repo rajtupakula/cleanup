@@ -80,9 +80,9 @@ Format-Table -AutoSize | Out-String
  
 ## Sends some before and after info for ticketing purposes 
  
-Hostname ; Get-Date | Select-Object DateTime 
-Write-Verbose "Before: $Before" 
-Write-Verbose "After: $After" 
-Write-Verbose $size 
+## Hostname ; Get-Date | Select-Object DateTime 
+## Write-Verbose "Before: $Before" 
+## Write-Verbose "After: $After" 
+## Write-Verbose $size 
 ## Completed Successfully! 
 Stop-Transcript } Cleanup
